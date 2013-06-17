@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  orderno: 1
+  delivered_date: 2013-06-17
+  category: 
+
+two:
+  name: MyString
+  orderno: 1
+  delivered_date: 2013-06-17
+  category: 

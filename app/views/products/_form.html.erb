@@ -1,0 +1,11 @@
+<%= simple_form_for(@product) do |f| %>
+ 
+  <%= f.error_notification %>
+  <%= f.input :name %>
+  <%= f.input :orderno , :collection => 1..5 , :as => :radio %>
+  <%= f.input :delivered_date , :hint => "years should be after 2012"%>
+  <%= f.association :category , :include_blank => false%>
+  <%= f.button :submit %>
+
+  
+<% end %>
