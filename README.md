@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 SM RailsCast 234
 ================
 
@@ -47,8 +47,4 @@ rake db:migrate
 Run `rails` server
 ```
 rails s
-``` 
-=======
-sm_rc234
-========
->>>>>>> 84c4b5e8e9992675e4ec1bfb59654574c891f8de
+
